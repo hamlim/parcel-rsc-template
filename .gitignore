@@ -9,3 +9,4 @@ wrangler.toml
 tsconfig.tsbuildinfo
 
 .DS_Store
+.parcel-cache

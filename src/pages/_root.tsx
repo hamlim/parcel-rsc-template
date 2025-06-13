@@ -17,15 +17,13 @@ export default function Root({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head suppressHydrationWarning>
-        <title>Waku Template</title>
-      </head>
-      <body>
+        <title>Parcel RSC Template</title>
         <script
           // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
           dangerouslySetInnerHTML={{ __html: `(${themeCheck.toString()})()` }}
         />
-        {children}
-      </body>
+      </head>
+      <body>{children}</body>
     </html>
   );
 }

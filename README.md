@@ -1,4 +1,4 @@
-# Waku Template App
+# Parcel RSC Template App
 
 Things to change after using this template:
 
@@ -16,6 +16,7 @@ Get started with:
 
 - `bun i` to install deps
 - `bun run dev` to start the development server
+  - you may need to run `bun watch` first to build an initial output in the `dist` dir before `bun start` can begin
 
 ## Automated Deployments:
 

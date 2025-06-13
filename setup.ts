@@ -26,7 +26,7 @@ let rootFile = await Bun.file("./src/pages/_root.tsx").text();
 await Bun.write(
   "./src/pages/_root.tsx",
   rootFile.replace(
-    "Waku Template",
+    "Parcel RSC Template",
     packageName
       .replace(/-/g, " ")
       .split(" ")
