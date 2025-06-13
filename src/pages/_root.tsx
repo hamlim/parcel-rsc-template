@@ -22,6 +22,7 @@ export default function Root({ children }: { children: ReactNode }) {
           // biome-ignore lint/security/noDangerouslySetInnerHtml: <explanation>
           dangerouslySetInnerHTML={{ __html: `(${themeCheck.toString()})()` }}
         />
+        <meta charSet="utf-8" />
       </head>
       <body>{children}</body>
     </html>
