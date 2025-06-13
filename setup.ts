@@ -18,7 +18,7 @@ let wranglerConfig = await Bun.file("./wrangler.jsonc").text();
 
 await Bun.write(
   "./wrangler.jsonc",
-  wranglerConfig.replace("waku-template", packageName),
+  wranglerConfig.replace("parcel-rsc-template", packageName),
 );
 
 let rootFile = await Bun.file("./src/pages/_root.tsx").text();

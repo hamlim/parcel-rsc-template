@@ -24,6 +24,7 @@
     "check": "biome ci ."
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@tailwindcss/postcss": "4.1.8",
     "@types/bun": "latest",
     "@types/react": "19.1.6",
